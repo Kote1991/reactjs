@@ -38,7 +38,7 @@ class App extends Component {
               <Route path='/contact' component={Contact} />
               <Route path='/about' component={About} />
               <Route path='/client' />
-              <Route path='*' component={() => (<h1>File not found</h1>)} />
+              <Route path='*' component={() => (<h1>File not found</h1>)} />{/*if no  match then route to default or error page*/}
              </Switch> 
                       </div>
       </div>
